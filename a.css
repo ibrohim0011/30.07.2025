@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tg {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    flex-wrap: wrap;
+    gap: 100px;
+    background-color: black;
+}
+
+.tb {
+    width: 300px;
+    height: 200px;
+    background-color: red;
+}
+
+
+
+
+
+@media (max-width :900px) {
+    body {
+        background-color: blue;
+    }
+
+    .tb {
+       background-color: navy;
+
+    }
+}
+@media (max-width :814px){
+    body{
+        background-color: bisque;
+    }
+    .tb{
+        width: 70%;
+        background-color: blueviolet;
+    }
+}
